@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.scss';
-import {Container, Row, Col} from 'react-bootstrap'
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 
