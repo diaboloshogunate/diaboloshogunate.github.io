@@ -1,0 +1,27 @@
+$theme-colors: (
+        "primary": #EFBB35,
+        "secondary": #222831,
+);
+$dark: #1A1D24;
+$black: #000010;
+$white: #FEFEFE;
+
+@import "~bootstrap/scss/bootstrap";
+
+.hero {
+  display: flex;
+  min-height: 100vh;
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, black 100%), url(./desk.webp);
+  background-size: cover;
+  background-position: center;
+  color: $white;
+  text-shadow: 0 0 0.3rem #000;
+
+  h1 {
+    font-size: 4.5rem;
+    margin-bottom: 0.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
