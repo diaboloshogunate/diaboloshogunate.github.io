@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/diaboloshogunate.github.io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/diaboloshogunate.github.io/static/js/main.bc941393.chunk.js",
+    "main.js.map": "/diaboloshogunate.github.io/static/js/main.bc941393.chunk.js.map",
+    "runtime-main.js": "/diaboloshogunate.github.io/static/js/runtime-main.f24f9c8f.js",
+    "runtime-main.js.map": "/diaboloshogunate.github.io/static/js/runtime-main.f24f9c8f.js.map",
+    "static/js/2.cca4c309.chunk.js": "/diaboloshogunate.github.io/static/js/2.cca4c309.chunk.js",
+    "static/js/2.cca4c309.chunk.js.map": "/diaboloshogunate.github.io/static/js/2.cca4c309.chunk.js.map",
+    "index.html": "/diaboloshogunate.github.io/index.html",
+    "precache-manifest.93da6357982bf43ba6f69ac309de6091.js": "/diaboloshogunate.github.io/precache-manifest.93da6357982bf43ba6f69ac309de6091.js",
+    "service-worker.js": "/diaboloshogunate.github.io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/diaboloshogunate.github.io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.cca4c309.chunk.js.LICENSE.txt": "/diaboloshogunate.github.io/static/js/2.cca4c309.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/diaboloshogunate.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f24f9c8f.js",
+    "static/js/2.cca4c309.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.bc941393.chunk.js"
+  ]
+}
