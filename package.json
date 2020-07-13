@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-    "deploy": "react-scripts build && yarn run gh-pages --branch master --dist build"
+    "deploy": "yarn run build && yarn run gh-pages --branch master --dist build"
   },
   "eslintConfig": {
     "extends": "react-app"
