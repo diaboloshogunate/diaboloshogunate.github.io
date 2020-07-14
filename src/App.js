@@ -3,6 +3,7 @@ import './App.scss';
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Testimonials from "./Components/Testimonials";
+import Skills from "./Components/Skills";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <Navbar />
             <Hero />
             <Testimonials/>
+            <Skills/>
         </React.Fragment>
     );
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import Glide from '@glidejs/glide';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
@@ -68,7 +68,7 @@ const slides = data.map((testimony) => {
 const bullets = data.map((testimony, index) => {
     return <button className="glide__bullet" data-glide-dir={"="+index++} key={testimony.author}/>
 });
-class Testimonials extends React.Component {
+class Testimonials extends Component {
     componentDidMount() {
             new Glide('.glide', {
                 type: 'carousel',

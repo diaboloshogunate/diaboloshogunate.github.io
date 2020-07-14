@@ -102,3 +102,30 @@ $white: #FEFEFE;
     }
   }
 }
+
+.skills {
+  text-align: center;
+  padding: 5rem 0 3rem 0;
+  background-color: theme-color('dark');
+  color: $white;
+
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    div {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      margin-bottom: 2rem;
+    }
+    svg {
+      width: 128px;
+      height: auto;
+      fill: $white;
+      path {
+        fill: $white;
+      }
+    }
+  }
+}
