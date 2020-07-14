@@ -3,7 +3,7 @@ import {Container, Nav, Navbar as NBar} from 'react-bootstrap'
 
 class Navbar extends Component {
     render() {
-        return <NBar bg="primary" variant="light" expand="lg">
+        return <NBar bg="primary" variant="light" expand="lg" sticky="top">
             <Container>
                 <NBar.Brand href="#home">Robert Parker</NBar.Brand>
                 <NBar.Toggle aria-controls="basic-navbar-nav"/>

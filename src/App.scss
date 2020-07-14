@@ -7,15 +7,21 @@ $black: #000010;
 $white: #FEFEFE;
 
 @import "~bootstrap/scss/bootstrap";
+@import "../node_modules/@glidejs/glide/dist/css/glide.core.min.css";
+@import "../node_modules/@glidejs/glide/dist/css/glide.theme.min.css";
 
 .hero {
   display: flex;
-  min-height: 100vh;
-  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, black 100%), url(./desk.webp);
+  min-height: calc(100vh - 15rem);
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, black 100%), url(./Images/desk.webp);
   background-size: cover;
   background-position: center;
   color: $white;
   text-shadow: 0 0 0.3rem #000;
+
+  .container {
+    margin-bottom: 10rem;
+  }
 
   h1 {
     font-size: 4.5rem;
@@ -23,5 +29,76 @@ $white: #FEFEFE;
   }
   p {
     font-size: 1.5rem;
+  }
+}
+
+.testinomials {
+  background-color: theme-color("dark");
+  margin-bottom: -160px + 64px;
+  padding: 0 64px;
+  .glide {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: -160px;
+    padding-bottom: 32px;
+  }
+  .glide__arrows {
+    @include media-breakpoint-down(md) { display: none; }
+    button {
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+
+      svg {
+        height: 64px;
+        width: 36px;
+      }
+
+      &:first-child {
+        left: -64px;
+      }
+      &:last-child {
+        right: -64px;
+      }
+    }
+  }
+  .glide__bullets {
+    bottom: 0;
+    button {
+      border-radius: 0;
+      height: 12px;
+      width: 64px;
+      background-color: theme-color('light');
+      &:hover {
+        background-color: theme-color('light');
+        border-color: theme-color('secondary');
+      }
+      &:focus, &.glide__bullet--active {
+        background-color: theme-color('secondary');
+        border-color: theme-color('secondary');
+      }
+    }
+  }
+  .glide__slide {
+    height: auto;
+  }
+  .testimony {
+    background-color: theme-color("primary");
+    color: theme-color("dark");
+    padding: 16px;
+    height: 100%;
+    margin: 64px 0 0 0;
+
+    img {
+      display: block;
+      margin: -64px auto 32px;
+      filter: grayscale(100%);
+    }
+    cite {
+      display: block;
+      margin-top: 16px;
+      font-style: normal;
+    }
   }
 }
