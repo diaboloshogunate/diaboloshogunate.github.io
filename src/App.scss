@@ -129,3 +129,15 @@ $white: #FEFEFE;
     }
   }
 }
+
+.copyright {
+  background-color: theme-color('dark');
+  color: theme-color('light');
+  border-top: 1px solid theme-color('primary');
+
+  small {
+    display: block;
+    font-size: 16px;
+    margin: 8px 0 8px 0;
+  }
+}

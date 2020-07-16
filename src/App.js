@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Testimonials from "./Components/Testimonials";
 import Skills from "./Components/Skills";
+import Copyright from "./Components/Copyright";
 
 function App() {
     return (
@@ -11,7 +12,11 @@ function App() {
             <Navbar />
             <Hero />
             <Testimonials/>
+            {/*portfolio*/}
             <Skills/>
+            {/*blog*/}
+            {/*newletter*/}
+            <Copyright/>
         </React.Fragment>
     );
 }
