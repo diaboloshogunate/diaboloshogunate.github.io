@@ -6,6 +6,7 @@ import Testimonials from "./Components/Testimonials";
 import Skills from "./Components/Skills";
 import Copyright from "./Components/Copyright";
 import Contact from "./Components/Contact";
+import Gallery from "./Components/Gallery";
 
 function App() {
     return (
@@ -13,7 +14,7 @@ function App() {
             <Navbar />
             <Hero />
             <Testimonials/>
-            {/*portfolio*/}
+            <Gallery/>
             <Skills/>
             {/*blog*/}
             {/*newletter*/}

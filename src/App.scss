@@ -130,6 +130,35 @@ $white: #FEFEFE;
   }
 }
 
+.gallery {
+  background-color: $black;
+  a {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    @include media-breakpoint-up(lg) {
+      border: 2px solid $black;
+      &:after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(theme-color("primary"), 0.5);
+        transition: all 250ms ease-out;
+      }
+      &:hover::after {
+        background-color: rgba($black, 0);
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
 .contact {
   padding: 6rem 0;
   background-color: theme-color("dark");
@@ -148,8 +177,6 @@ $white: #FEFEFE;
 
     svg {
       display: inline-block;
-      height: 28px;
-      width: auto;
     }
     span {
       display: inline-block;
@@ -160,10 +187,6 @@ $white: #FEFEFE;
   nav a {
     &:first-of-type {
       padding-left: 0;
-    }
-    svg {
-      width: 64px;
-      height: auto;
     }
   }
 }
