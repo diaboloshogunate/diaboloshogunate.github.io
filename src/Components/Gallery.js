@@ -54,31 +54,31 @@ class Gallery extends Component {
             </Modal>
             <Row noGutters>
                 <Col xs={12} lg={6}>
-                    <a href="https://pfarnach.itch.io/lanternal" target={"_blank"}>
+                    <a href="https://pfarnach.itch.io/lanternal" target={"_blank"} rel="noopener noreferrer">
                         <img src={Lanternal} alt="Main character of lanternel holding her staff and a lantern"/>
                     </a>
                 </Col>
                 <Col xs={12} lg={6}>
                     <Row noGutters>
                         <Col xs={12} sm={6}>
-                            <a href="https://jkyuusai.itch.io/i-wet-my-plants" target={"_blank"}>
+                            <a href="https://jkyuusai.itch.io/i-wet-my-plants" target={"_blank"} rel="noopener noreferrer">
                                 <img src={WetMyPlants} alt="Raincloud with text I wet my plants" />
                             </a>
                         </Col>
                         <Col xs={12} sm={6}>
-                            <a href="https://diaboloshogun.itch.io/catastrophic-wars" target={"_blank"}>
+                            <a href="https://diaboloshogun.itch.io/catastrophic-wars" target={"_blank"} rel="noopener noreferrer">
                                 <img src={Catastrophic} alt="Title screen with text catastrophic wars"/>
                             </a>
                         </Col>
                     </Row>
                     <Row noGutters>
                         <Col xs={12} sm={6}>
-                            <a href="https://diaboloshogun.itch.io/fractured-soul" target={"_blank"}>
+                            <a href="https://diaboloshogun.itch.io/fractured-soul" target={"_blank"} rel="noopener noreferrer">
                                 <img src={Fractured} alt="Title screen with text fractured souls"/>
                             </a>
                         </Col>
                         <Col xs={12} sm={6}>
-                            <a href="https://diaboloshogun.itch.io/i-must-rest" target={"_blank"}>
+                            <a href="https://diaboloshogun.itch.io/i-must-rest" target={"_blank"} rel="noopener noreferrer">
                                 <img src={MustRest} alt="Main character standing in a cave next to a radio "/>
                             </a>
                         </Col>
@@ -94,24 +94,24 @@ class Gallery extends Component {
                 <Col xs={12} lg={6}>
                     <Row noGutters>
                         <Col xs={12} sm={6}>
-                            <a href="https://bushcooking.com/" target={"_blank"}>
+                            <a href="https://bushcooking.com/" target={"_blank"} rel="noopener noreferrer">
                                 <img src={Bush} alt="Homepage of bush cooking"/>
                             </a>
                         </Col>
                         <Col xs={12} sm={6}>
-                            <a href="https://hangrykits.com/" target={"_blank"}>
+                            <a href="https://hangrykits.com/" target={"_blank"} rel="noopener noreferrer">
                                 <img src={Hangry} alt="Homepage of hangry kits"/>
                             </a>
                         </Col>
                     </Row>
                     <Row noGutters>
                         <Col xs={12} sm={6}>
-                            <a href="https://makeupmag.com/pro/" target={"_blank"}>
+                            <a href="https://makeupmag.com/pro/" target={"_blank"} rel="noopener noreferrer">
                                 <img src={Makeupmag} alt="Screenshot of advanced form dashboard with results"/>
                             </a>
                         </Col>
                         <Col xs={12} sm={6}>
-                            <a href="http://pocketkey.com/" target={"_blank"}>
+                            <a href="http://pocketkey.com/" target={"_blank"} rel="noopener noreferrer">
                                 <img src={Pocketkey} alt="Example graph showing bank and color votes based on form submissions"/>
                             </a>
                         </Col>
@@ -127,24 +127,24 @@ class Gallery extends Component {
                 <Col xs={12} lg={6}>
                     <Row noGutters>
                         <Col xs={12} sm={6}>
-                            <a href="https://seattlecityclub.org/" target={"_blank"}>
+                            <a href="https://seattlecityclub.org/" target={"_blank"} rel="noopener noreferrer">
                                 <img src={Seattle} alt="Screenshot of seattle city clubs homepage"/>
                             </a>
                         </Col>
                         <Col xs={12} sm={6}>
-                            <a href="https://firstmovechess.org/" target={"_blank"}>
+                            <a href="https://firstmovechess.org/" target={"_blank"} rel="noopener noreferrer">
                                 <img src={FirstMove} alt="Screenshot of first move chess organizations homepage"/>
                             </a>
                         </Col>
                     </Row>
                     <Row noGutters>
                         <Col xs={12} sm={6}>
-                            <a href="https://novacasework.com/" target={"_blank"}>
+                            <a href="https://novacasework.com/" target={"_blank"} rel="noopener noreferrer">
                                 <img src={Nova} alt="Screenshot of Nova caseworks homepage"/>
                             </a>
                         </Col>
                         <Col xs={12} sm={6}>
-                            <a href="https://kamanskiconstruction.com/" target={"_blank"}>
+                            <a href="https://kamanskiconstruction.com/" target={"_blank"} rel="noopener noreferrer">
                                 <img src={Kamanski} alt="Screenshot of Kamanskis homepage"/>
                             </a>
                         </Col>
