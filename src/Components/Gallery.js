@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Container, Row, Col, Modal, Button} from 'react-bootstrap'
+import {Row, Col, Modal, Button} from 'react-bootstrap'
 
 import Lanternal from '../Images/portfolio/lanternal.png';
 import WetMyPlants from '../Images/portfolio/wet-my-plants.png';
