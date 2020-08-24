@@ -132,7 +132,7 @@ $white: #FEFEFE;
 
 .gallery {
   background-color: $black;
-  a {
+  a, .pointer {
     display: block;
     cursor: pointer;
     position: relative;
