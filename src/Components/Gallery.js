@@ -87,7 +87,7 @@ class Gallery extends Component {
             </Row>
             <Row noGutters>
                 <Col xs={12} lg={{order: 2, span: 6}}>
-                    <a onClick={handleConstructionShow}>
+                    <a href="#" onClick={handleConstructionShow}>
                         <img src={Siggy} alt="Signup form for Siggy" />
                     </a>
                 </Col>
@@ -120,7 +120,7 @@ class Gallery extends Component {
             </Row>
             <Row noGutters>
                 <Col xs={12} lg={6}>
-                    <a onClick={handleInternalShow}>
+                    <a href="#" onClick={handleInternalShow}>
                         <img src={Cloudian} alt="Splash screen for cloudian university app"/>
                     </a>
                 </Col>
